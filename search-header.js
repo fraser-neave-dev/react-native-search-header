@@ -890,6 +890,7 @@ export default class SearchHeader extends Component {
                 style = { adjustedStyle.suggestion }
             >
                 <FlatList
+                    keyboardShouldPersistTaps="always"
                     data = { suggestionEntries }
                     renderItem = {(listData) => {
                         const entry = listData.item;
