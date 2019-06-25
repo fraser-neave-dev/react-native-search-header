@@ -114,7 +114,7 @@ const DEFAULT_SEARCH_HEADER_VIEW_STYLE = {
     },
     input: {
         flex: 1,
-        fontSize: PixelRatio.get() >= 3 ? 20 : 18,
+        fontSize: PixelRatio.get() >= 3 ? 18 : 16,
         fontWeight: `400`,
         textAlign: `left`,
         margin: 6,
@@ -125,7 +125,7 @@ const DEFAULT_SEARCH_HEADER_VIEW_STYLE = {
     },
     suggestionEntry: {
         flex: 1,
-        fontSize: PixelRatio.get() >= 3 ? 20 : 18,
+        fontSize: PixelRatio.get() >= 3 ? 18 : 16,
         fontWeight: `400`,
         textAlign: `left`,
         marginVertical: 3,
