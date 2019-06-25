@@ -62,7 +62,7 @@ const DEVICE_HEIGHT = Dimensions.get(`window`).height;
 
 const DEFAULT_DROP_SHADOW_STYLE = {
     shadowRadius: 2,
-    shadowOpacity: 0.25,
+    shadowOpacity: 0,
     shadowOffset: {
         width: 0,
         height: 1
